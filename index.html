@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>My CSS Website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<nav>
+		<ul class="topnav" id="ddclick">
+			<li><a href="#home">Home</a></li>
+			<li><a href="#news">News</a></li>
+			<li><a href="#contact">Contact</a></li>
+			<li><a href="#about">About</a></li>
+			<li class="topnav-right"><a href="#sign up">Sign up</a></li>
+			<li class="topnav-right"><a href="#sign in">Sign in</a></li>
+			<li class="dropdown"><a href="javascript:void(0);" onclick="ddMenu()">&#9776;</a></li>
+		</ul>
+	</nav>
+	<div class="container" id="section1">
+		<div class="row">
+			<div class="col-6 ">
+				<div class="leftside">
+					<h1 class="large">ANIRUDDHA ROUTH</h1>
+					<h2 class="large">JALPAIGURI GOVERNMENT ENGINEERING COLLEGE</h2>
+				</div>
+				<form>
+					<div class="leftside">
+						<h2>Username</h2>
+						<input type="text" name="Username" class="inputbox" placeholder="Username">
+						<h2>Password</h2>
+						<input type="text" name="Password" class="inputbox" placeholder="Password">
+					</div>
+				</form>
+			</div>
+			<div class="col-6">
+				<div class="rightside">
+					<div class="photocont">
+						<img src="pp.jpg" alt="pic" width="500" height="600">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<header>
+		<h1 class="section2header">Academics</h1>
+	</header>
+
+
+	<div class="container">
+		<div class="row">
+
+			<div class="col-4">
+				<div class="box">
+					<div class="icon">
+						<img src="logojgec.jpg" width="145" height="160">
+					</div>
+					<h2>Jalapiguri Govt. Engineering College </h2>
+					<p>hgsfd fgsjkj fdsjds ghf dhfjgfsjaghdfg jhsdfa hjsfadsfhfgjhdgf  fd hjgdsgfasdhgfd ds fggf asdjfdsahj fgshsjfg</p>
+				</div>
+			</div>
+
+			<div class="col-4">
+				<div class="box">
+					<div class="icon">
+						<img src="logosmhs.png">
+					</div>
+					<h2>St. Mary's School </h2>
+					<p>hgsfd fgsjkj fdsjds ghf dhfjgfsjaghdfg jhsdfa hjsfadsfhfgjhdgf  fd hjgdsgfasdhgfd ds fggf asdjfdsahj fgshsjfg</p>
+				</div>
+			</div>
+
+			<div class="col-4">
+				<div class="box">
+					<div class="icon">
+						<img src="logosmhs.png">
+					</div>
+					<h2>St. Mary's School </h2>
+					<p>hgsfd fgsjkj fdsjds ghf dhfjgfsjaghdfg jhsdfa hjsfadsfhfgjhdgf  fd hjgdsgfasdhgfd ds fggf asdjfdsahj fgshsjfg</p>
+				</div>
+			</div>
+
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<button class="Learn"> Learn more</button>
+			</div>
+		</div>
+	</div>
+	<hr>
+	<div class="container">
+		<div class="row">
+			<div class="col-7">
+			<article>
+				<p>
+					hgsfd fgsjkj fdsjds ghf dhfjgfsjaghdfg jhsdfa hjsfadsfhfgjhdgf  fd hjgdsgfasdhgfd ds fggf asdjfdsahj fgshsjfghgsfd fgsjkj fdsjds ghf dhfjgfsjaghdfg jhsdfa hjsfadsfhfgjhdgf  fd hjgdsgfasdhgfd ds fggf asdjfdsahj fgshsjfghgsfd fgsjkj fdsjds ghf dhfjgfsjaghdfg jhsdfa hjsfadsfhfgjhdgf  fd hjgdsgfasdhgfd ds fggf asdjfdsahj fgshsjfg
+				</p>
+			</article>
+		</div>
+		<div class="col-5">
+			<div class="image">
+				<img src="xi.png" width="500" height="300">
+			</div>
+		</div>
+		</div>
+	</div>
+
+	<footer class="foot">
+		<div class="row">
+			<div class="col-3">
+				<h2>Company</h2>
+				<ul>
+					<li>1........</li>
+					<li>1........</li>
+					<li>1........</li>
+				</ul>
+			</div>
+			<div class="col-3">
+				<h2>Company</h2>
+				<ul>
+					<li>1........</li>
+					<li>1........</li>
+					<li>1........</li>
+				</ul>
+			</div>
+			<div class="col-3">
+				<h2>Company</h2>
+				<ul>
+					<li>1........</li>
+					<li>1........</li>
+					<li>1........</li>
+				</ul>
+			</div>
+			<div class="col-3">
+				<h2>Company</h2>
+				<ul>
+					<li>1........</li>
+					<li>1........</li>
+					<li>1........</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+
+
+
+
+
+	<script>
+		function ddMenu(){
+			var x= document.getElementById("ddclick");
+			if(x.className == "topnav"){
+				x.className += " responsive";
+			}
+			else{
+				x.className= "topnav";
+			}
+		}
+	</script>
+
+</body>
+</html>
